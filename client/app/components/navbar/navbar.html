@@ -40,7 +40,7 @@
         <a ui-sref="login" id="nav-internal">Login</a></li>
 
         <li ng-show="isLoggedIn()">
-          <img class="grvatar-image" ng-src="{{ getCurrentUser().gravatar }}" alt="">
+          <img class="gravatar-image" ng-src="{{ getCurrentUser().gravatar }}" alt="">
 
         <li ng-show="isLoggedIn()" ng-class="{active: isActive('/settings')}">
         <a href="/settings"><span class="glyphicon glyphicon-cog"></span></a></li>
